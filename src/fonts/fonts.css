@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ChakraPetch';
+    src: url('./ChakraPetch-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ChakraPetch';
+    src: url('./ChakraPetch-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ChakraPetch';
+    src: url('./ChakraPetch-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'ChakraPetch';
+    src: url('./ChakraPetch-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Mundial';
+    src: url('./MundialBold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Mundial';
+    src: url('./MundialItalic.otf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Mundial';
+    src: url('./MundialRegular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
