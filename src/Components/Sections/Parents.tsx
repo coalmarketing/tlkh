@@ -26,7 +26,7 @@ const Parents = () => {
 					</Text>
 					<Grid mt="3%" templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: "1fr", xl: 'repeat(2, 1fr)' }} gap={{ base: 3, md: 3, xl: 3 }}>
 						{CARDS.map((card, i) => (
-							<ValueCard key={i} color="rgba(255, 255, 255, 0.3)" position={{ top: 0, right: 0 }} transform="translate(25%, -25%)" heading={card.heading} text={card.text} img={card.img} styles={{ minH: "220px" }} />
+							<ValueCard linkTo="pro-rodice#landing-rodice" key={i} color="rgba(255, 255, 255, 0.3)" position={{ top: 0, right: 0 }} transform="translate(25%, -25%)" heading={card.heading} text={card.text} img={card.img} styles={{ minH: "220px" }} />
 						))}
 						<Flex direction="column" gap={3}>
 							<Button as={Link} to="pro-rodice#landing-rodice" variant="solidWhitePurple" style={{ height: '50px' }}>Chci vědět víc</Button>

@@ -105,6 +105,7 @@ const Footer = ({ color }: IProps) => {
                             <Text as={Link} href="https://www.hradebni.cz/studijni-maturitni-obory" target="_blank">Maturita - co a jak</Text>
                             <Text as={Link} href="https://www.hradebni.cz/" target="_blank">Web školy</Text>
                             <Text as={Link} href="https://bakalari2.hradebni.cz/login" target="_blank">Bakaláři - přístup pro studenty a rodiče</Text>
+                            <Text as={Link} href="https://www.hradebni.cz/file.php?nid=18237&oid=12258556" target="_blank">Podmínky druhého kola přímacího řízení</Text>
                         </Flex>
                     </GridItem>
                 </Grid>
