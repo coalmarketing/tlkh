@@ -2,6 +2,7 @@ import { Flex, Heading, Text } from "@chakra-ui/react";
 import CustTable from "../Elements/CustomTable";
 
 const Organisation = () => {
+
     return (
         <Flex minH="100vh" pt={{ base: "10%", lg: "unset" }} w="100%" justify="center">
             <Flex align="center" w="94%" justify="space-between" direction={{ base: "column", lg: "row" }} gap={2} position="relative">

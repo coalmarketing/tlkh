@@ -45,7 +45,7 @@ const Students = () => {
 
 					<Grid templateColumns={{ base: '1fr', lg: 'repeat(2, 1fr)' }} gap={{ base: 3, md: 3, xl: 3 }}>
 						{cards.map((card) => (
-							<ValueCard linkTo="/pro-studenty#studenti-landing" color="rgba(255, 255, 255, 0.3)" position={{top: 0, right: 0}} transform="translate(25%, -25%)" heading={card.heading} text={card.text} img={card.img} />
+							<ValueCard color="rgba(255, 255, 255, 0.3)" position={{top: 0, right: 0}} transform="translate(25%, -25%)" heading={card.heading} text={card.text} img={card.img} />
 						))}
 						<Button variant="solidWhiteBlue" as={Link} to="/pro-studenty#studenti-landing"  style={{ height: '50px' }} >To mě zajímá!</Button>
 						<Button variant="borderWhiteBlue" style={{ height: '50px' }} as={Link} to="/pro-studenty/#software" >Software pro studenty</Button>
