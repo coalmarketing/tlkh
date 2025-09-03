@@ -118,3 +118,4 @@ const Footer = ({ color }: IProps) => {
 };
 
 export default Footer;
+
