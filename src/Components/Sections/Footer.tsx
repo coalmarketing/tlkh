@@ -1,5 +1,4 @@
 import { Grid, GridItem, Heading, Text, Box, Flex, Link } from "@chakra-ui/react";
-import backgroundImg from "../../images/logo-back-footer.svg";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaGlobe } from "react-icons/fa";
@@ -16,7 +15,7 @@ const Footer = ({ color }: IProps) => {
             minH="20vh"
             w="100%"
             bg={color}
-            backgroundImage={backgroundImg}
+            backgroundImage="url(/logo-back-footer.svg)"
             backgroundSize="100%"
             backgroundPosition="0% 80%"
             backgroundRepeat="no-repeat"
